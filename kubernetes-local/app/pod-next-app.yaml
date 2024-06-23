@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: next-app-pod
+  labels:
+    app: next-app
+spec:
+  containers:
+    - name: next-app
+      image: potekichi/next-app:0620
+      # ports:
+      #   - containerPort: 3000

@@ -1,0 +1,6 @@
+apiVersions: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: next-app-ingress
+  namespace: next-app
+  
